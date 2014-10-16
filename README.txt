@@ -1,8 +1,7 @@
 Linxi Fan
-lf2422
-NLP Programming 2
+Parser
 
-The homework is implemented entirely in python 2. Testing on CUNIX passes.
+The parser is implemented entirely in python 2. Testing on CUNIX passes.
 The source codes are heavily commented.
 Note: if CUNIX says "/bin/bash: bad interpreter: Permission denied", please change the permission:
 $  chmod 744 *.sh
@@ -137,6 +136,3 @@ an F1-score of only 0.556.
 With vertical markovization, however, the script takes into account that the as-clause belongs to a single
 expansion rule led by SBAR, and thus gets the 'SBAR' correctly and produces an F1-score of 0.889, which
 is a huge enhancement.
-
-
-Thanks for reviewing this material!
